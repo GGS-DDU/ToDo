@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/delete_view"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#F44336"
+        android:gravity="center"
+        android:text="delete"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/alarm_view"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/delete_view"
+        android:background="#EEFF41"
+        android:gravity="center"
+        android:text="Alarm"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#BBDEFB"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="Content..."
+        android:textSize="30dp" />
+
+</RelativeLayout>
